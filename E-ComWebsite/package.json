@@ -4,15 +4,21 @@
   "description": "Creating a MERN stack shopping website ",
   "main": "index.js",
   "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Haripriyaa M",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
     "cookie-parser": "^1.4.6",
     "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-fileupload": "^1.5.0",
     "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.1",
     "moongoose": "^0.0.5"
   }
 }
